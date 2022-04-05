@@ -2,7 +2,7 @@
 A pip package for parsing wit motion IMU messages
 
 ```
-pip install -e git+https://github.com/askuric/pywitmotion.git
+pip install git+https://github.com/askuric/pywitmotion.git
 ```
 
 Code example using `pybluez`
