@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(name='pywitmotion',
       version='0.1',
-      description='The funniest joke in the world',
+      description='A pip package for parsing wit motion IMU messages',
       url='https://github.com/askuric/pywitmotion',
       author='Antun Skuric',
       author_email='antun.skuric@outlook.com',
