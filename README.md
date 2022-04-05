@@ -1,10 +1,17 @@
 # pywitmotion
 A pip package for parsing wit motion IMU messages
 
+![](./datasheet/image.jpg)
+
+Find the datasheet at [BWT901 Datasheet.pdf](./datasheet/BWT901_Datasheet.pdf)
+
+
+## Instalation
 ```
 pip install -e git+https://github.com/askuric/pywitmotion.git
 ```
 
+## Code examples
 Code example using `pybluez`
 
 ```python
