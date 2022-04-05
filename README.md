@@ -25,6 +25,10 @@ while msgs_num < 100:
     data = data.split(b'U') 
     for msg in data:
         q = wit.get_quaternion(msg)
+        # q = wit.get_magnetic(msg)
+        # q = wit.get_angle(msg)
+        # q = wit.get_gyro(msg)
+        # q = wit.get_acceleration(msg)
         if q is not None:
             msgs_num = msgs_num+1
             print(q)
@@ -42,10 +46,17 @@ baud = 115400
 
 with serial.Serial(port, baud, timeout=5) as ser:
     s = ser.read()
-    while True:
+
+    msgs_num = 0
+    while msgs_num < 100:
         start = time.time()
         s = ser.read_until(b'U')
-        q1 = wit.get_quaternion(s)
-        if q1 is not None:
-            print(time.time()-start)
+        q = wit.get_quaternion(msg)
+        # q = wit.get_magnetic(msg)
+        # q = wit.get_angle(msg)
+        # q = wit.get_gyro(msg)
+        # q = wit.get_acceleration(msg)
+        if q is not None:
+            msgs_num = msgs_num+1
+            print(q)
 ```
