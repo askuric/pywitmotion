@@ -8,7 +8,7 @@ Find the datasheet at [BWT901 Datasheet.pdf](./datasheet/BWT901_Datasheet.pdf)
 
 ## Instalation
 ```
-pip install -e git+https://github.com/askuric/pywitmotion.git
+pip install git+https://github.com/askuric/pywitmotion.git
 ```
 
 ## Code examples
