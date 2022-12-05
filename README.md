@@ -1,5 +1,5 @@
 # pywitmotion
-A pip package for parsing wit motion IMU messages
+A pip package for parsing witmotion IMU messages
 
 ![](./datasheet/image.jpg)
 
