@@ -3,7 +3,7 @@ A python pip package for parsing witmotion IMU messages
 
 ![](./datasheet/image.jpg)
 
-Find the datasheet at [BWT901 Datasheet.pdf](./datasheet/BWT901_Datasheet.pdf)
+Find the datasheet at [BWT901CL Datasheet.pdf](./datasheet/BWT901_Datasheet.pdf)
 
 
 ## Instalation
