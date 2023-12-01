@@ -67,3 +67,16 @@ with serial.Serial(port, baud, timeout=5) as ser:
             msgs_num = msgs_num+1
             print(q)
 ```
+
+
+## Using witmotion INUs for human motion capture
+
+Here is a tutorial on using the wit motion IMUs in combination with this minimal library `pywitmotion` and the `biorbd` library for human motion capture.
+
+Gitlab [tutorial link](https://gitlab.inria.fr/auctus-team/people/antunskuric/demos/pyomeca_imus_demo)
+
+This tutorial uses 4 IMUs for the human right arm:
+<img src="https://gitlab.inria.fr/auctus-team/people/antunskuric/demos/pyomeca_imus_demo/-/raw/master/images/sensor_position.jpg" height=400px>
+
+And the obtained results are:
+<img src="https://gitlab.inria.fr/auctus-team/people/antunskuric/demos/pyomeca_imus_demo/-/raw/master/images/pyomeca_imus.gif" height="400px">
