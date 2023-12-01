@@ -79,4 +79,4 @@ This tutorial uses 4 IMUs for the human right arm:
 <img src="https://gitlab.inria.fr/auctus-team/people/antunskuric/demos/pyomeca_imus_demo/-/raw/master/images/sensor_position.jpg" height=400px>
 
 And the obtained results are:
-<img src="https://gitlab.inria.fr/auctus-team/people/antunskuric/demos/pyomeca_imus_demo/-/raw/master/images/pyomeca_imus.gif" height="400px">
+<img src="./datasheet/pyomeca_imus.gif" height="400px">
